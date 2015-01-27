@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wsh-Sp-zQF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Tirar Foto-->
+        <scene sceneID="KcZ-g7-Lyd">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cTZ-0E-tk4" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="a8X-kU-VED"/>
+                        <viewControllerLayoutGuide type="bottom" id="jaM-4C-Q5E"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="TzH-QB-5ac">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" verticalCompressionResistancePriority="749" image="exemplo_nf" translatesAutoresizingMaskIntoConstraints="NO" id="MzG-3d-NFA">
+                                <rect key="frame" x="16" y="91" width="568" height="305"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ao fotografar, enquadre as informações abaixo " lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDF-J3-Qb2">
+                                <rect key="frame" x="118" y="60" width="364" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziU-Jb-ysj">
+                                <rect key="frame" x="265" y="435" width="71" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="81P-LR-41z"/>
+                                    <constraint firstAttribute="width" constant="71" id="Lcs-9L-Qvx"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="camera button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ziU-Jb-ysj" firstAttribute="top" secondItem="MzG-3d-NFA" secondAttribute="bottom" constant="39" id="97l-4a-0pa"/>
+                            <constraint firstItem="MzG-3d-NFA" firstAttribute="top" secondItem="VDF-J3-Qb2" secondAttribute="bottom" constant="10" id="FOf-Pj-5Ne"/>
+                            <constraint firstItem="jaM-4C-Q5E" firstAttribute="top" secondItem="ziU-Jb-ysj" secondAttribute="bottom" constant="47" id="JEg-js-Upp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MzG-3d-NFA" secondAttribute="trailing" id="K4o-uu-D87"/>
+                            <constraint firstItem="VDF-J3-Qb2" firstAttribute="top" secondItem="a8X-kU-VED" secondAttribute="bottom" constant="40" id="QBR-Jr-8IB"/>
+                            <constraint firstAttribute="centerX" secondItem="VDF-J3-Qb2" secondAttribute="centerX" id="UBk-X7-z4u"/>
+                            <constraint firstAttribute="centerY" secondItem="ziU-Jb-ysj" secondAttribute="centerY" constant="-170" id="XrF-jb-EoY"/>
+                            <constraint firstAttribute="centerX" secondItem="ziU-Jb-ysj" secondAttribute="centerX" id="ZJS-ja-Cxg"/>
+                            <constraint firstItem="VDF-J3-Qb2" firstAttribute="bottom" secondItem="MzG-3d-NFA" secondAttribute="top" constant="-117" id="din-zE-0Nb"/>
+                            <constraint firstAttribute="centerX" secondItem="MzG-3d-NFA" secondAttribute="centerX" id="xxW-vd-va1"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="din-zE-0Nb"/>
+                                <exclude reference="XrF-jb-EoY"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Tirar Foto" id="SXV-Ls-Frb"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-iN-hel" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1099" y="-40"/>
+        </scene>
+        <!--Escolher Causa-->
+        <scene sceneID="eXN-sS-Fuw">
+            <objects>
+                <viewController id="7ro-Oz-5HT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mcG-49-Fbu"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fqa-xu-lrq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t17-BH-o5P">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Escolher Causa" id="E2X-c0-Ymh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jXr-Hf-ReW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1111" y="659"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="B7c-Yh-gxc">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Wsh-Sp-zQF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="S4X-Lu-1aV">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cTZ-0E-tk4" kind="relationship" relationship="viewControllers" id="sN3-XE-gSd"/>
+                        <segue destination="7ro-Oz-5HT" kind="relationship" relationship="viewControllers" id="tfb-mz-CQ4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NDP-ZR-KOw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="281" y="220"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camera button" width="71" height="69"/>
+        <image name="exemplo_nf" width="310" height="237"/>
+    </resources>
 </document>
