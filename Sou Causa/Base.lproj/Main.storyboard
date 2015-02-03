@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" verticalCompressionResistancePriority="749" image="exemplo_nf" translatesAutoresizingMaskIntoConstraints="NO" id="MzG-3d-NFA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" image="exemplo_nf" translatesAutoresizingMaskIntoConstraints="NO" id="MzG-3d-NFA">
                                 <rect key="frame" x="16" y="91" width="568" height="305"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ao fotografar, enquadre as informações abaixo " lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDF-J3-Qb2">
@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="1111" y="659"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="B7c-Yh-gxc">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Wsh-Sp-zQF" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Wsh-Sp-zQF" customClass="MainTabBarController" customModule="Sou_Causa" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="S4X-Lu-1aV">

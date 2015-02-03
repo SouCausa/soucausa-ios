@@ -13,6 +13,7 @@
 		73B9FB7A1A6C7EED0076FE73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B9FB791A6C7EED0076FE73 /* Images.xcassets */; };
 		73B9FB7D1A6C7EED0076FE73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B9FB7B1A6C7EED0076FE73 /* LaunchScreen.xib */; };
 		73B9FB891A6C7EED0076FE73 /* Sou_CausaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9FB881A6C7EED0076FE73 /* Sou_CausaTests.swift */; };
+		73BF6F191A805C2000B1B9C5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BF6F181A805C2000B1B9C5 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		73B9FB821A6C7EED0076FE73 /* Sou CausaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sou CausaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B9FB871A6C7EED0076FE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B9FB881A6C7EED0076FE73 /* Sou_CausaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sou_CausaTests.swift; sourceTree = "<group>"; };
+		73BF6F181A805C2000B1B9C5 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				73B9FB721A6C7EEC0076FE73 /* AppDelegate.swift */,
 				73B9FB741A6C7EEC0076FE73 /* ViewController.swift */,
 				73B9FB761A6C7EED0076FE73 /* Main.storyboard */,
+				73BF6F181A805C2000B1B9C5 /* MainTabBarController.swift */,
 				73B9FB791A6C7EED0076FE73 /* Images.xcassets */,
 				73B9FB7B1A6C7EED0076FE73 /* LaunchScreen.xib */,
 				73B9FB701A6C7EEC0076FE73 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				73B9FB751A6C7EEC0076FE73 /* ViewController.swift in Sources */,
 				73B9FB731A6C7EEC0076FE73 /* AppDelegate.swift in Sources */,
+				73BF6F191A805C2000B1B9C5 /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,8 +339,6 @@
 		73B9FB8D1A6C7EED0076FE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Sou Causa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,8 +348,6 @@
 		73B9FB8E1A6C7EED0076FE73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Sou Causa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
