@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wsh-Sp-zQF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wsh-Sp-zQF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -74,7 +74,105 @@
                     <view key="view" contentMode="scaleToFill" id="t17-BH-o5P">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBv-JM-dVH">
+                                <rect key="frame" x="36" y="40" width="97" height="97"/>
+                                <state key="normal" image="idoso saúde">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thR-vo-kMu">
+                                <rect key="frame" x="252" y="40" width="97" height="97"/>
+                                <state key="normal" image="idoso proteção">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEc-3B-pdJ">
+                                <rect key="frame" x="467" y="40" width="97" height="97"/>
+                                <state key="normal" image="saude criança">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFf-tq-iak">
+                                <rect key="frame" x="36" y="157" width="97" height="97"/>
+                                <state key="normal" image="saude criança">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mB-9J-k3N">
+                                <rect key="frame" x="251" y="157" width="97" height="97"/>
+                                <state key="normal" image="saude mulher">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxE-fp-xko">
+                                <rect key="frame" x="467" y="157" width="97" height="97"/>
+                                <state key="normal" image="proteção social mulher">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIp-cQ-tX8">
+                                <rect key="frame" x="467" y="274" width="97" height="97"/>
+                                <state key="normal" image="meio ambiente">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRL-z7-hoH">
+                                <rect key="frame" x="252" y="274" width="97" height="97"/>
+                                <state key="normal" image="animal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mw5-DP-BsY">
+                                <rect key="frame" x="36" y="391" width="97" height="97"/>
+                                <state key="normal" image="adolescente saude">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Skl-B3-6sK">
+                                <rect key="frame" x="251" y="391" width="97" height="97"/>
+                                <state key="normal" image="adolescente prot social">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maw-Gf-rDr">
+                                <rect key="frame" x="36" y="274" width="97" height="97"/>
+                                <state key="normal" image="educacao">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fBv-JM-dVH" firstAttribute="leading" secondItem="t17-BH-o5P" secondAttribute="leadingMargin" constant="20" id="33l-Hj-Ozi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kxE-fp-xko" secondAttribute="trailing" constant="20" id="78P-ur-P9m"/>
+                            <constraint firstAttribute="centerX" secondItem="Skl-B3-6sK" secondAttribute="centerX" constant="1" id="7NN-sh-xh3"/>
+                            <constraint firstItem="9mB-9J-k3N" firstAttribute="top" secondItem="thR-vo-kMu" secondAttribute="bottom" constant="20" id="8iR-9I-Ns5"/>
+                            <constraint firstItem="maw-Gf-rDr" firstAttribute="leading" secondItem="t17-BH-o5P" secondAttribute="leadingMargin" constant="20" id="9dq-DM-JJU"/>
+                            <constraint firstItem="pFf-tq-iak" firstAttribute="top" secondItem="fBv-JM-dVH" secondAttribute="bottom" constant="20" id="AZT-Wa-UDR"/>
+                            <constraint firstItem="jEc-3B-pdJ" firstAttribute="top" secondItem="mcG-49-Fbu" secondAttribute="bottom" constant="20" id="CqT-N7-vKq"/>
+                            <constraint firstItem="rIp-cQ-tX8" firstAttribute="top" secondItem="kxE-fp-xko" secondAttribute="bottom" constant="20" id="DTS-yO-EB7"/>
+                            <constraint firstItem="PRL-z7-hoH" firstAttribute="top" secondItem="9mB-9J-k3N" secondAttribute="bottom" constant="20" id="IDr-58-iqF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jEc-3B-pdJ" secondAttribute="trailing" constant="20" id="Mlr-ts-kIn"/>
+                            <constraint firstAttribute="centerX" secondItem="thR-vo-kMu" secondAttribute="centerX" id="POa-BX-iNq"/>
+                            <constraint firstAttribute="centerX" secondItem="PRL-z7-hoH" secondAttribute="centerX" id="QL0-zA-Jww"/>
+                            <constraint firstItem="kxE-fp-xko" firstAttribute="top" secondItem="jEc-3B-pdJ" secondAttribute="bottom" constant="20" id="RBM-JB-Les"/>
+                            <constraint firstItem="Skl-B3-6sK" firstAttribute="top" secondItem="PRL-z7-hoH" secondAttribute="bottom" constant="20" id="Sxa-hq-Sqf"/>
+                            <constraint firstItem="maw-Gf-rDr" firstAttribute="top" secondItem="pFf-tq-iak" secondAttribute="bottom" constant="20" id="eVz-Oc-xGV"/>
+                            <constraint firstItem="thR-vo-kMu" firstAttribute="top" secondItem="mcG-49-Fbu" secondAttribute="bottom" constant="20" id="fKn-8J-EMC"/>
+                            <constraint firstAttribute="centerX" secondItem="9mB-9J-k3N" secondAttribute="centerX" id="gPg-eq-McQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rIp-cQ-tX8" secondAttribute="trailing" constant="20" id="hdJ-IV-ndO"/>
+                            <constraint firstItem="Mw5-DP-BsY" firstAttribute="leading" secondItem="t17-BH-o5P" secondAttribute="leadingMargin" constant="20" id="lfZ-mM-WZb"/>
+                            <constraint firstItem="Mw5-DP-BsY" firstAttribute="top" secondItem="maw-Gf-rDr" secondAttribute="bottom" constant="20" id="ndM-z3-JW8"/>
+                            <constraint firstItem="fBv-JM-dVH" firstAttribute="top" secondItem="mcG-49-Fbu" secondAttribute="bottom" constant="20" id="oq8-Nt-j1b"/>
+                            <constraint firstItem="Skl-B3-6sK" firstAttribute="top" secondItem="PRL-z7-hoH" secondAttribute="bottom" constant="37" id="rTp-8K-w2m"/>
+                            <constraint firstItem="pFf-tq-iak" firstAttribute="leading" secondItem="t17-BH-o5P" secondAttribute="leadingMargin" constant="20" id="uTP-h1-Pz5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rTp-8K-w2m"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Escolher Causa" id="E2X-c0-Ymh"/>
                 </viewController>
@@ -103,7 +201,17 @@
         </scene>
     </scenes>
     <resources>
+        <image name="adolescente prot social" width="97" height="97"/>
+        <image name="adolescente saude" width="97" height="97"/>
+        <image name="animal" width="97" height="97"/>
         <image name="camera button" width="71" height="69"/>
+        <image name="educacao" width="97" height="97"/>
         <image name="exemplo_nf" width="310" height="237"/>
+        <image name="idoso proteção" width="97" height="97"/>
+        <image name="idoso saúde" width="97" height="97"/>
+        <image name="meio ambiente" width="97" height="97"/>
+        <image name="proteção social mulher" width="97" height="97"/>
+        <image name="saude criança" width="97" height="97"/>
+        <image name="saude mulher" width="97" height="97"/>
     </resources>
 </document>
