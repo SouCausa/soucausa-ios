@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		737958D81A9BFFF100FB585C /* TakePictureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737958D71A9BFFF100FB585C /* TakePictureController.swift */; };
 		73B9FB731A6C7EEC0076FE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9FB721A6C7EEC0076FE73 /* AppDelegate.swift */; };
 		73B9FB751A6C7EEC0076FE73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9FB741A6C7EEC0076FE73 /* ViewController.swift */; };
 		73B9FB781A6C7EED0076FE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B9FB761A6C7EED0076FE73 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		737958D71A9BFFF100FB585C /* TakePictureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePictureController.swift; sourceTree = "<group>"; };
 		73B9FB6D1A6C7EEC0076FE73 /* Sou Causa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sou Causa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B9FB711A6C7EEC0076FE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B9FB721A6C7EEC0076FE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		737958D51A9BFF8600FB585C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				737958D61A9BFF9700FB585C /* Screens */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		737958D61A9BFF9700FB585C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				737958D71A9BFFF100FB585C /* TakePictureController.swift */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
 		73B9FB641A6C7EEC0076FE73 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +97,7 @@
 		73B9FB6F1A6C7EEC0076FE73 /* Sou Causa */ = {
 			isa = PBXGroup;
 			children = (
+				737958D51A9BFF8600FB585C /* Controller */,
 				73B9FB721A6C7EEC0076FE73 /* AppDelegate.swift */,
 				73B9FB741A6C7EEC0076FE73 /* ViewController.swift */,
 				73B9FB761A6C7EED0076FE73 /* Main.storyboard */,
@@ -218,6 +237,7 @@
 				73B9FB751A6C7EEC0076FE73 /* ViewController.swift in Sources */,
 				73B9FB731A6C7EEC0076FE73 /* AppDelegate.swift in Sources */,
 				73BF6F191A805C2000B1B9C5 /* MainTabBarController.swift in Sources */,
+				737958D81A9BFFF100FB585C /* TakePictureController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

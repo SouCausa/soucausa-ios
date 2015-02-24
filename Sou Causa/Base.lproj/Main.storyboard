@@ -8,7 +8,7 @@
         <!--Tirar Foto-->
         <scene sceneID="KcZ-g7-Lyd">
             <objects>
-                <viewController id="cTZ-0E-tk4" sceneMemberID="viewController">
+                <viewController id="cTZ-0E-tk4" customClass="TakePictureController" customModule="Sou_Causa" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a8X-kU-VED"/>
                         <viewControllerLayoutGuide type="bottom" id="jaM-4C-Q5E"/>
@@ -35,6 +35,9 @@
                                 <state key="normal" backgroundImage="camera button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="shoot:" destination="cTZ-0E-tk4" eventType="touchUpInside" id="gvx-77-FQ7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
