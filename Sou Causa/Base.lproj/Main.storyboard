@@ -17,8 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" image="exemplo_nf" translatesAutoresizingMaskIntoConstraints="NO" id="MzG-3d-NFA">
-                                <rect key="frame" x="16" y="91" width="568" height="305"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="activity_screen_background" translatesAutoresizingMaskIntoConstraints="NO" id="Eud-h0-xP2">
+                                <rect key="frame" x="-8" y="-9" width="615" height="560"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" misplaced="YES" image="exemplo_nf" translatesAutoresizingMaskIntoConstraints="NO" id="MzG-3d-NFA">
+                                <rect key="frame" x="16" y="89" width="568" height="305"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ao fotografar, enquadre as informações abaixo " lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDF-J3-Qb2">
                                 <rect key="frame" x="118" y="60" width="364" height="21"/>
@@ -78,6 +81,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="activity_screen_background" translatesAutoresizingMaskIntoConstraints="NO" id="nNf-zs-DVR">
+                                <rect key="frame" x="-6" y="-6" width="612" height="557"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBv-JM-dVH">
                                 <rect key="frame" x="26" y="40" width="97" height="97"/>
                                 <constraints>
@@ -207,6 +213,7 @@
                             <constraint firstItem="thR-vo-kMu" firstAttribute="top" secondItem="mcG-49-Fbu" secondAttribute="bottom" constant="20" id="fKn-8J-EMC"/>
                             <constraint firstAttribute="centerX" secondItem="9mB-9J-k3N" secondAttribute="centerX" id="gPg-eq-McQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rIp-cQ-tX8" secondAttribute="trailing" constant="10" id="hdJ-IV-ndO"/>
+                            <constraint firstItem="nNf-zs-DVR" firstAttribute="leading" secondItem="t17-BH-o5P" secondAttribute="leadingMargin" constant="-22" id="lHr-nY-QLt"/>
                             <constraint firstItem="Mw5-DP-BsY" firstAttribute="leading" secondItem="t17-BH-o5P" secondAttribute="leadingMargin" constant="10" id="lfZ-mM-WZb"/>
                             <constraint firstItem="Mw5-DP-BsY" firstAttribute="top" secondItem="maw-Gf-rDr" secondAttribute="bottom" constant="20" id="ndM-z3-JW8"/>
                             <constraint firstItem="fBv-JM-dVH" firstAttribute="top" secondItem="mcG-49-Fbu" secondAttribute="bottom" constant="20" id="oq8-Nt-j1b"/>
@@ -246,6 +253,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="activity_screen_background" width="320" height="523"/>
         <image name="adolescente prot social" width="97" height="97"/>
         <image name="adolescente saude" width="97" height="97"/>
         <image name="animal" width="97" height="97"/>
